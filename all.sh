@@ -68,7 +68,7 @@ sudo swapon --show
 free -h
 
 #Creating a swap
-sudo fallocate -l 1G /swapfile
+sudo fallocate -l 2G /swapfile
 ls -lh /swapfile
 sudo chmod 600 /swapfile
 ls -lh /swapfile
